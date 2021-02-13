@@ -1,20 +1,19 @@
-Map generator
+Copyright (c) 2020 The Python Packaging Authority
 
-This program creates a map with locations of films that are the nearest to 
-the user's location and were directed in the year the user has given.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Module consists of six functions for reading data and generating map.
-To begin with, program asks the user to enter the year of a film and 
-the user's location. 
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-!!!Warning!!!
-This programs works really long, but you can shorten the base with data
-in filter_year() function. It consists of 1000 films of a given year 
-by default, but you can change it.
-
-The result is a map with three layers: the user's location, my location 
-and films' locations. You can add and remove layers on the map using 
-the layer control.
-
-The example of a generated map:
-![Map](generated_map.png?raw=true "output_map")
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
